@@ -1,0 +1,157 @@
+header{
+    background-color:rgba(240, 212, 241, 0.407);
+    font-family: italic;
+    font-size: medium;
+    /*margin: auto 20px;*/
+}
+header h1{
+    text-align: center;
+    font-family: italic;
+}
+.accueiltab{
+    max-width: 1200px; /* Largeur maximale */
+    width: 80%; /* Largeur adaptable pour les écrans plus petits */
+    margin: 20px auto; /* Centre horizontalement */
+    padding: 15px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+nav {
+    
+    /*padding: 15px 10px;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.accueiltab h5 a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+}
+.img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;/*l'image s'adapte bien dans le cercle*/
+
+}
+video{
+    width: 450px;
+}
+main {
+    /*background-color: rgba(240, 212, 241, 0.407);*/
+    display: flex; /* Activer le modèle Flexbox */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    flex-direction: column; /* Empiler les éléments dans une colonne (si nécessaire) */
+    font-style: italic;
+    text-align: center;
+    margin: 20px 50px; /* Peut être ajusté si nécessaire */
+    min-height: 100vh; /* Assure que `main` prend toute la hauteur de la fenêtre */
+}
+.accueiltab{
+    margin: 20px 50px;
+}
+main div section {
+    flex: 1; /*ye5ou l compteneur kemel*/
+}
+main section div {
+    text-align: center;
+    display : flex;/*organisation et alignement des éléments*/
+   gap: 20px; /* l espace eli mabin zouz 3wed*/
+}
+.accueiltab h1{
+    text-align: center;
+    color: #a965a2;
+}
+.question {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white; 
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgb(230,230,230);
+    margin-top: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: left;
+}
+
+form label {
+    
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 5px;
+}
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Assurez-vous que le conteneur s'adapte au parent */
+    max-width: 400px; /* Largeur maximale souhaitée pour le formulaire */
+    margin: 0 auto; /* Centré horizontalement */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre pour esthétisme */
+    background-color: #fff;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff; /* Couleur bleue claire */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #a965a2;
+}
+footer{
+    background-color: rgba(240, 212, 241, 0.407);
+    font-style: italic;
+    text-align: center;
+   /* margin: auto 20px;*/
+    border-radius: 8px;
+   
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
